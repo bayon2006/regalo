@@ -15,7 +15,7 @@ const hearts=document.getElementById('hearts');
 for(let i=0;i<35;i++){
  const h=document.createElement('div');
  h.className='heart';
- h.innerHTML=['<span style="color:lightblue;">❤</span>','<span style="color:lightblue;">❤</span>','<span style="color:lightblue;">❤</span>','<span style="color:lightblue;">❤</span>'][Math.floor(Math.random()*4)];
+ h.innerHTML=['💙','💙','💙','💙'][Math.floor(Math.random()*4)];
  h.style.left=Math.random()*100+'vw';
  h.style.animationDuration=(6+Math.random()*8)+'s';
  h.style.animationDelay=(Math.random()*5)+'s';
